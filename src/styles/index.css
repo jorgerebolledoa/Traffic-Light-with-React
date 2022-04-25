@@ -1,4 +1,49 @@
+body{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{color: white;}
+body .Semaforo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+    margin-top: 20px;
+    padding: 30px;
+    border: 1px solid grey;
+}
+body .Semaforo .colores{
+    padding: 5%;
 
+    
+}
+body .Semaforo .colores .rojo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background: red;
+}
+body .Semaforo .colores .amarillo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background: yellow;
+
+}
+body .Semaforo .colores .verde{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background: green;
+}
+body .Semaforo .colores .on {
+    border: 0;
+    box-shadow: 0 0 20px 10px wheat;
+
+}
 /* 
 
     You can write your own styles here...
