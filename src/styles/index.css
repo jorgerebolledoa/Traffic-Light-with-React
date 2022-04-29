@@ -1,10 +1,9 @@
 body{
-    background: black;
+    background-image: url(https://www.lavanguardia.com/files/og_thumbnail/uploads/2020/05/23/5fa91db5a0923.jpeg);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-p{color: white;}
 body .Semaforo{
     display: flex;
     flex-direction: column;
@@ -13,12 +12,11 @@ body .Semaforo{
     width: 100px;
     margin-top: 20px;
     padding: 30px;
+    background: black;
     border: 1px solid grey;
 }
 body .Semaforo .colores{
-    padding: 5%;
-
-    
+    padding: 5%;  
 }
 body .Semaforo .colores .rojo{
     height: 50px;
